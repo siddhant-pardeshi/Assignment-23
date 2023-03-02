@@ -6,11 +6,11 @@ using namespace std;
 class Volume
 {
     public:
-  float l;
+  float l,b,h;
 
   float volume()
   {
-   return l*l*l;
+   return l*b*h;
   }
 
 };
@@ -18,8 +18,8 @@ class Volume
 int main()
 {
     Volume a;
-cout<<"Enter length of cuboid to find volume"<<endl;
-cin>>a.l;
+cout<<"Enter length,breadth and height of cuboid to find volume"<<endl;
+cin>>a.l>>a.b>>a.h;
 
 float z=a.volume();
 
