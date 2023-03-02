@@ -10,7 +10,7 @@ class Average
 
   float average()
   {
-   return (x+y+z)/3;
+   return (x+y+z)/3.0;
   }
 
 };
